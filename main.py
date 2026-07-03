@@ -17,7 +17,7 @@ ALLOWED_ORIGIN = "https://app-0l889l.example.com"
 
 # Also allow the exam page origin.
 # Replace this with the exam page origin if your assignment provides it.
-EXAM_ORIGIN = "https://exam.example.com"
+EXAM_ORIGIN = "https://exam.sanand.workers.dev"
 
 RATE_LIMIT = 15
 WINDOW = 10
