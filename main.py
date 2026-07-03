@@ -105,4 +105,5 @@ async def ping(request: Request):
     return {
         "email": EMAIL,
         "request_id": request.state.request_id,
+        "X-Request-ID": request.state.request_id,
     }
